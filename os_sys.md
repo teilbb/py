@@ -95,12 +95,16 @@ sys.copyright 记录python版权相关的东西
 sys.api_version 解释器的C的API版本
 
 exe路径
+```
 >>> sys.executable
 'C:\\Python27\\python.exe'
+```
 
 lib路径
+```
 >>> sys.prefix
 'C:\\Python27'
+```
 
 ##### 总结：
 
