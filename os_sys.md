@@ -94,6 +94,14 @@ sys.copyright 记录python版权相关的东西
 
 sys.api_version 解释器的C的API版本
 
+exe路径
+>>> sys.executable
+'C:\\Python27\\python.exe'
+
+lib路径
+>>> sys.prefix
+'C:\\Python27'
+
 ##### 总结：
 
 os模块负责程序与操作系统的交互，提供了访问操作系统底层的接口;sys模块负责程序与python解释器的交互，提供了一系列的函数和变量，用于操控python的运行时环境。
